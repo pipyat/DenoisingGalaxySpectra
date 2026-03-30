@@ -72,7 +72,7 @@ narrow_windows.compile(optimizer=optimizer, loss=loss)
 print(narrow_windows.summary())
 
 # Fit the model with callbacks
-history = narrow_windows.fit(
+narrow_windows.fit(
     x=[b_train, r_train],
     y=flux_train,
     validation_data=([b_test, r_test], flux_test),
