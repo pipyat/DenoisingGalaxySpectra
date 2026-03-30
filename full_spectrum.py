@@ -1,7 +1,7 @@
 # Imports
 import tensorflow as tf
 from tensorflow.keras.layers import Input, Dense
-(from tensorflow.keras.models import Model
+from tensorflow.keras.models import Model
 from tensorflow.keras.losses import mae
 from tensorflow.keras.callbacks import History, ReduceLROnPlateau
 tf.compat.v1.enable_eager_execution()
